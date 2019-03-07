@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>   
+            
+            .navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+        .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
+        
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Resume - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+  <a href="Index.php">Home</a>
+  <a href="Interest.html">Interests</a>
+  <a href="Sport.html">Sport</a>
+  <a href="Travel.html">Travel</a>
+  <a href="ConsultingService.html">Consulting</a>
+</div>
+        <style>
+body {
+  background-color: lightblue;
+}
+
+p {
+  
+  color: black;
+} 
+
+ul {
+    color: black;
+}
+
+div {
+    color: black;
+}
+</style>
+
+
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Tom Mason</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Personal Details</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Work Experience</a>
+        </li>
+              </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Tom
+          <span class="text-primary">Mason</span>
+        </h1>
+        <div class="subheading mb-5">123 Kilkenny · Kilkenny, CO. Kilkenny · (083) 123-4567 ·
+          <a href="mailto:name@email.com">TomMason@umail.ucc.ie</a>
+        </div>
+        <p class="lead mb-5">I am 19 Years old and from Kilkenny and I'm currently studying Business Information Systems in UCC.
+        I'm currently in first year of my four year course</p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">personal Details</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0"></h3>
+            <div class="subheading mb-3">Details:</div>
+            <p>
+            <ul><li>Email: tmason@umail,com</li>
+                <li>Phone Number: 0831010555</li>
+                <li>I am 19 years old from D****n but Living in K******y since i was 2.</li>
+                <li>My Address is ** M********l k***s R**d K******y.</li>
+            </ul>
+            
+            I'm a confident and punctual individual with plenty of experience in the workplace.
+            For my Work experience in 4th year, I went to St.Lukes Hospital, Petmania and Moth to a flame which gave me a great insight into how a small business works.
+            </p>
+            
+          </div>
+          
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University College Cork</h3>
+            <div class="subheading mb-3">Business Information Systems</div>
+            <div>First Year undergrad,BIS</div>
+            <p>Pass all Winter exams in first year</p>
+            <p>
+                
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2018 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Christian Brothers School</h3>
+            <div class="subheading mb-3">3 years</div>
+            <p>Leaving Cert results:<br>
+            English: H* <br>
+            Irish: H*<br>
+            Maths: H* <br>
+            French: H*<br>
+            Biology: H*<br>
+            History: H*<br>
+            Geography: H*<br>
+            </p>
+            <p>
+                I attended CBS Kilkenny from 4th Year until 6th year. Once I had attended Gaelscoil Osraí and Colaiste Pobail Osraí for 11 years, I moved to CBS to improve my English as I had been speaking Irish and learning all
+                the terms in every subject through Irish for my entire schooling life, so I decided to begin to learn them through english as they wouldnt be taught through Irish in College. 
+                i left CBS 3 years after arriving with a very good Leaving Cert.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2015 - June 2018</span>
+          </div>
+        </div
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Coláiste Pobail Osraí</h3>
+            <div class="subheading mb-3">3 years</div>
+            <p>Junior Cert Results:
+            English: *<br>
+            Irish: *<br>
+            Math: *<br>
+            French: *<br>
+            Science: *<br>
+            History: *<br>
+            Woodwork: *<br>
+            Technology: *<br>
+            Business: *<br>
+            </p>
+            
+            <p>
+                I attended Colaiste Pobail Osraí from first year to third year in Secondary School. During my time there, I greatly improved my Irish and am now fluent in 3 
+            languages which are;
+            </p>
+            <ul>
+                <li>English</li>
+                <li>Irish</li>
+                <li>French</li>
+           
+            
+           
+          
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2012 - June 2015</span>
+          </div>
+        </div>
+
+      
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Work Experience</h2>
+
+        <div class="subheading mb-3">St.Luke's Hopspital</div>
+        <p>
+            I spent 2 weeks in St.Luke's Hospital in Kilkenny when I was in Transition Year in CBS Kilkenny.
+            During my Time there, I learnt a great amount about the Health care industry as well and attaining plenty 
+            of new personal Skills. I became a far more punctual person due to the fact that my manager there was very strict with time keeping.
+            I also became a far harder worker during my time due to the fact that when I was asked to do something, Someone's health was on the line and couldn't be nonchalant 
+            during my time there and from then on, i have maintained that work Ethic
+        </p>
+
+        <div class="subheading mb-3">Moth to a Flame</div>
+        <p>
+            The second business Place that I attended was Moth to a Flame. It is a small candle making shop on the outskirts of Kilkenny.
+            The shop is recognised globally as one of the best in the candle making industry. During my time there, i received a great 
+            insight into how a small company consisting of only 2 employees can grow and prosper. I also became a more efficient worker
+            while I was there due to the many jobs I was asked to do during my time there and working efficiently would allow me to get more done in the 
+            same amount of time
+        </p>        
+        <div class="subheading mb-3">Kilkenny County Council</div>
+        <p>
+            During the summer of 2018, I became involved with the county council and worked for them for 10 weeks. During my time there, i was tasked with picking up Litter on the streets as well and helping out on construction Sites
+            and cleaning up the graveyards in Kilkenny. A skill i attained from this job was computer skills. After each work Day, I 
+            was requested to add my hours into a database in a computer in the county council offices. This became very useful 
+            as it has helped me whilst I was doing this course.
+        </p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+  
+  <center>
+  <a href="Index.php" class="button">Back to Menu</a>
+  </center>
+
+    </body>
+</html>
