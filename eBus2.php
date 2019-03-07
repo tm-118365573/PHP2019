@@ -53,6 +53,16 @@ body{
     <title> eBusiness 2 </title>
 </head>
 <body>
+    <br>
+    <br>
+    
+    <div class="navbar">
+  <a href="Index.php">Home</a>
+  <a href="Interest.html">Interests</a>
+  <a href="Sport.html">Sport</a>
+  <a href="Travel.html">Travel</a>
+  <a href="ConsultingService.html">Consulting</a>
+</div>
     <div class ="form">
         <form name ="Details" method ="post" action= "eBUS3.php">
             <center>
@@ -63,17 +73,17 @@ body{
                     </tr>
        
                     <tr>
-                         <td> Name </td>
+                         <td> Name: </td>
                          <td><input type="text" id="txtName" name="txtName" value="" /> </td>
                     </tr>
        
                      <tr>
-                         <td> Phone Number </td>
+                         <td> Phone Number: </td>
                          <td><input type="text" id="txtNum" name="txtNum" value="" /> </td>
                     </tr>
        
                     <tr>
-                         <td> Password </td>
+                         <td> Password: </td>
                          <td><input type="text" id="txtPassword" name="txtPassword" value="" /> </td>
                     </tr>
        

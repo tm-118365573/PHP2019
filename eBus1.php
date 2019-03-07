@@ -1,6 +1,4 @@
-<!--Creating a session variable and assigning it to txtTotal-->
 
-<!--Creating a session variable and assigning it to txtTotal -->
 <?php
 session_start();
 $totalValue = "";
@@ -37,7 +35,7 @@ $_SESSION['txtTotal'] = $totalValue;
 .main {
   padding: 16px;
   margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
+  height: 1500px; 
 }
 
 body{
@@ -50,13 +48,25 @@ body{
     </head>
    
     <body>
+        
+        <div class="navbar">
+  <a href="Index.php">Home</a>
+  <a href="Interest.html">Interests</a>
+  <a href="Sport.html">Sport</a>
+  <a href="Travel.html">Travel</a>
+  <a href="ConsultingService.html">Consulting</a>
+</div>
    
         <div class="form">
             <form name="intCalc" method="post" action="eBus2.php">
+                <br>
+                <br>
+                <center>
                   <h1>Shop Calculator</h1>
+                </center>
                
                 <center>
-                    <table cellspacing="10">
+                    <table cellspacing="15">
                         <tr>
                           <td><b><h1 style="background-color:rgba(255, 99, 71, 0.2);">Select a Consulting Service:</b></td>
                         </tr>
@@ -77,23 +87,27 @@ body{
                 <br />
                
                 <center>
-                    <table cellspacing="10">
+                    <table cellspacing="15">
                         <tr>
                             <td><b></b></td>
                               <td><b>Amount</b></td>
                         </tr>
+                        <br>
                         <tr>
                             <td>Sub Total</td>
                             <td><input type="text" id="txtSubTot" name="txtSub" readonly /></td>
                         </tr>
+                        <br>
                         <tr>
                             <td>Discount @ 10%</td>
                             <td><input type="text" id="txtDisc" name="txtDisc" readonly /></td>
                         </tr>
+                        <br>
                         <tr>
                             <td>+VAT @ 20%</td>
                             <td><input type="text" id="txtVat" name="txtVat" readonly /></td>
                         </tr>
+                        <br>
                         <tr>
                             <td>Total</td>
                             <td><input type="text" id="txtTotal" name="txtTotal" value="" readonly /></td>
