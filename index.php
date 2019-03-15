@@ -215,7 +215,7 @@ background-size: 100%;
     <br>
     <br>
     <br>
-    <a href=" https://php-project-2019.herokuapp.com/"><strong>My Heroku site</strong></a>
+    <a href="https://php-project-2019.herokuapp.com/"><strong>My Heroku site</strong></a>
     </center>
         </body>
 </html>
