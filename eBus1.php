@@ -50,7 +50,7 @@ body{
     <body>
         
         <div class="navbar">
-  <a href="Index.php">Home</a>
+  <a href="index.php">Home</a>
   <a href="Interest.html">Interests</a>
   <a href="Sport.html">Sport</a>
   <a href="Travel.html">Travel</a>
